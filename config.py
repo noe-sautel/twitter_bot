@@ -1,18 +1,11 @@
-# tweepy-bots/bots/config.py
 import tweepy
 import logging
-import os
 import json
 
-"""
-Documentation links
-https://docs.tweepy.org/en/latest/api.html
-https://developer.twitter.com/en/portal/dashboard
-"""
+logger = logging.getLogger()
+
 with open('credentials.json') as json_file:
     creds = json.load(json_file)
-
-logger = logging.getLogger()
 
 def create_api():
     consumer_key = creds["api_key"] # "CONSUMER_KEY"
@@ -26,7 +19,15 @@ def create_api():
     try:
         api.verify_credentials()
     except Exception as e:
-        logger.error("Error creating API", exc_info=True)
+        logger.error("Error creating Tweeter API", exc_info=True)
         raise e
-    logger.info("API created")
+    logger.info("Tweeter API created")
     return api
+
+def textgears_api():
+    try:
+        logger.info("Textgears API created")
+        return creds["textgears_api_key"]  # "TEXTGEARS_API"
+    except Exception as e:
+        logger.error("Error getting Textgears API", exc_info=True)
+        raise e
