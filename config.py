@@ -31,3 +31,10 @@ def textgears_api():
     except Exception as e:
         logger.error("Error getting Textgears API", exc_info=True)
         raise e
+
+def since_id_counter(current_since_id):
+    f = open("since_id.text", "r+")
+    result = f.read()
+    f.write(str(current_since_id))
+    f.close()
+    return result
