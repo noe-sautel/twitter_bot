@@ -32,9 +32,10 @@ def textgears_api():
         logger.error("Error getting Textgears API", exc_info=True)
         raise e
 
-def since_id_counter(current_since_id):
-    f = open("since_id.text", "r+")
-    result = f.read()
-    f.write(str(current_since_id))
-    f.close()
-    return result
+def since_id_read():
+    with open("since_id.text", "r") as fp:
+        return int(fp.read())
+
+def since_id_write(current_since_id):
+    with open("since_id.text", "w") as fp:
+        fp.write(str(current_since_id))
