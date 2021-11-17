@@ -46,11 +46,10 @@ def check_mentions(api, since_id):
             # # if any(keyword in tweet.text for keyword in keywords):
             tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_name = tweet.user.name, api_key = config.textgears_api())
             api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
-
-            # logger.info(f"Answered to {tweet.user.name}")
+            logger.info(f"Answered to {tweet.user.name}")
             if not tweet.user.following and tweet.user.name != 'Noé' :
                 tweet.user.follow()
-                logger.info("user @%s has just been followed" % tweet.user.name)
+                logger.info(f"user @{tweet.user.name} has just been followed" )
 
         config.since_id_write(current_since_id=new_since_id)
         return new_since_id
