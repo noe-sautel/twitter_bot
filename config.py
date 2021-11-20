@@ -1,17 +1,18 @@
 import tweepy
 import logging
-import json
+# import json
+from os import environ
 
 logger = logging.getLogger()
 
-with open('credentials.json') as json_file:
-    creds = json.load(json_file)
+# with open('credentials.json') as json_file:
+#     creds = json.load(json_file)
 
 def create_api():
-    consumer_key = creds["api_key"] # "CONSUMER_KEY"
-    consumer_secret = creds["api_secret_key"] # "CONSUMER_SECRET"
-    access_token = creds["acess_token"] # "ACCESS_TOKEN"
-    access_token_secret = creds["acess_token_secret"] # "ACCESS_TOKEN_SECRET"
+    consumer_key = environ.get('api_key') # creds["api_key"] # "CONSUMER_KEY"
+    consumer_secret = environ.get('api_secret_key') # creds["api_secret_key"] # "CONSUMER_SECRET"
+    access_token = environ.get('acess_token') # creds["acess_token"] # "ACCESS_TOKEN"
+    access_token_secret = environ.get('acess_token_secret') # creds["acess_token_secret"] # "ACCESS_TOKEN_SECRET"
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
