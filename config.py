@@ -28,7 +28,7 @@ def create_api():
 def textgears_api():
     try:
         logger.info("Textgears API created")
-        return creds["textgears_api_key"]  # "TEXTGEARS_API"
+        return environ.get('textgears_api_key') # creds["textgears_api_key"]  # "TEXTGEARS_API"
     except Exception as e:
         logger.error("Error getting Textgears API", exc_info=True)
         raise e
