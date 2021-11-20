@@ -47,9 +47,10 @@ def check_mentions(api, since_id):
             tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_name = tweet.user.name, api_key = config.textgears_api())
             try :
                 api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
-            except tweepy.TweepError as error:
-                if error.api_code == 187:
-                    print('duplicate tweet')
+            except tweepy.errors.HTTPException as error:
+                if error.api_codes == [187]: # tweepy.errors.Forbidden: 403 Forbidden 187 - Status is a duplicate
+                    logger.info("Duplicate tweet")
+                    continue
                 else:
                     raise error
             logger.info(f"Answered to {tweet.user.name}")
