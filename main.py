@@ -45,7 +45,13 @@ def check_mentions(api, since_id):
 
             # # if any(keyword in tweet.text for keyword in keywords):
             tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_name = tweet.user.name, api_key = config.textgears_api())
-            api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
+            try :
+                api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
+            except tweepy.TweepError as error:
+                if error.api_code == 187:
+                    print('duplicate tweet')
+                else:
+                    raise error
             logger.info(f"Answered to {tweet.user.name}")
             if not tweet.user.following and tweet.user.name != 'Noé' :
                 tweet.user.follow()
