@@ -28,13 +28,14 @@ def check_mentions(api, since_id):
             tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_name = tweet.user.name, api_key = config.textgears_api())
             try :
                 api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
+                logger.info(f"Answered to {tweet.user.name}")
+                print(f"At {tweet.id}: {tweet_corrected}")                
             except tweepy.errors.HTTPException as error:
                 if error.api_codes == [187]: # tweepy.errors.Forbidden: 403 Forbidden 187 - Status is a duplicate
                     logger.info("Duplicate tweet")
                     continue
                 else:
                     raise error
-            logger.info(f"Answered to {tweet.user.name}")
             if not tweet.user.following and tweet.user.name != 'Noé' :
                 tweet.user.follow()
                 logger.info(f"user @{tweet.user.name} has just been followed" )
@@ -51,7 +52,6 @@ def invert_image(api, user):
         inv_img = ImageChops.invert(img)
         inv_img.save('profile_picture.jpg')
         api.update_profile_image('profile_picture.jpg')
-        # api.update_profile_image('/Users/noesautel/Downloads/FEF25EA5-C7A0-45F0-A45B-E0F3C6BB1749_1_105_c.jpeg')
         logger.info("Profile picture updated")
         return None
     except Exception as e:

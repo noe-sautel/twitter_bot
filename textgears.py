@@ -2,6 +2,7 @@ import demjson
 import json
 import requests
 import urllib.parse
+import emoji
 
 def correct_text(tweet_text, user_tweet_name, api_key):
 

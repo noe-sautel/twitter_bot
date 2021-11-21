@@ -1,2 +1,3 @@
 *.json
 data.txt
+config_creds.py
