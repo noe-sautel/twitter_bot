@@ -1,5 +1,4 @@
 import demjson
-import emoji
 import json
 import requests
 import urllib.parse
@@ -18,14 +17,6 @@ def correct_text(tweet_text, user_tweet_name, api_key):
         else:
             description = py_obj["response"]["errors"][0]["description"]["en"]
             better = py_obj["response"]["errors"][0]["better"][0]
-            # return {"description": description, "better": better}
-            return f"{description} \"{better}\" " # + {emoji.emojize(":thumbs_up:")}
+            return f"{description} \"{better}\" "
     except Exception as e:
         return str(e)
-
-# r = requests.get('https://api.textgears.com/account/resourcequota?key='+api_key) 
-# file = 'data.txt'
-# with open('data.txt', 'w') as outfile:
-#     json.dump(data, outfile)
-# with open(file, 'r') as f:
-#     data = json.load(f)

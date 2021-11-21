@@ -4,14 +4,24 @@ import config
 import time
 import textgears
 import re
-from PIL import Image, ImageChops
-import requests
-from io import BytesIO
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 auth_user_list = ['ohmyxan', 'noesautel']
+# def check_mentions_keywords(api, keywords, since_id):
+#     logger.info("Retrieving mentions")
+#     new_since_id = since_id
+#     for tweet in tweepy.Cursor(api.mentions_timeline, since_id = since_id).items():
+#         new_since_id = max(tweet.id, new_since_id)
+#         # print([tweet.text, tweet.user.name, tweet.id, tweet.in_reply_to_status_id])        
+#         if any(keyword in tweet.text for keyword in keywords):
+#             tweet_corrected = textgears.correct_text(tweet_text = tweet.text, user_tweet_name = tweet.user.name, api_key = textgears_api())
+#             api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
+#             logger.info(f"Answered to {tweet.user.name}")
+#             if not tweet.user.following :
+#                 tweet.user.follow()
+#     return new_since_id
 
 def check_mentions(api, since_id):
     logger.info("Retrieving mentions")
@@ -25,6 +35,7 @@ def check_mentions(api, since_id):
         elif api.get_status(tweet.in_reply_to_status_id).user.screen_name in auth_user_list :
             tweet_typo_prepared = api.get_status(tweet.in_reply_to_status_id).text
             tweet_typo = ' '.join(re.sub("(@[A-Za-z0-9_À-ÿ]+)|([^0-9A-Za-z_À-ÿ \t])|(\w+:\/\/\S+)"," ", tweet_typo_prepared).split())
+            # # if any(keyword in tweet.text for keyword in keywords):
             tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_name = tweet.user.name, api_key = config.textgears_api())
             try :
                 api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
@@ -42,27 +53,12 @@ def check_mentions(api, since_id):
         config.since_id_write(current_since_id=new_since_id)
         return new_since_id
 
-def invert_image(api, user):
-    try:
-        lookup_user = api.lookup_users(screen_name=[user])[0]
-        img_raw = ''.join(re.sub("_normal"," ", lookup_user.profile_image_url_https).split()) # le retrait de _normal permet de passer en 400*400px au lieu d'une miniature
-        response = requests.get(img_raw)
-        img = Image.open(BytesIO(response.content))
-        inv_img = ImageChops.invert(img)
-        inv_img.save('profile_picture.jpg')
-        api.update_profile_image('profile_picture.jpg')
-        # api.update_profile_image('/Users/noesautel/Downloads/FEF25EA5-C7A0-45F0-A45B-E0F3C6BB1749_1_105_c.jpeg')
-        logger.info("Profile picture updated")
-        return None
-    except Exception as e:
-        logging.debug(e)    
-
 def main():
     api = config.create_api()
     since_id = config.since_id_read()
     while True:
+        # since_id = check_mentions_keywords(api, ["chocolat", "vert"], since_id)
         check_mentions(api=api, since_id=since_id)
-        invert_image(api=api, user='ohmyxan')
         logger.info("Waiting...")
         time.sleep(60)
 
