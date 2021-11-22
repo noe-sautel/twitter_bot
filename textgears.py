@@ -4,7 +4,7 @@ import requests
 import urllib.parse
 import emoji
 
-def correct_text(tweet_text, user_tweet_screen_name, api_key):
+def correct_text(tweet_text, api_key):
 
     safe_string = urllib.parse.quote_plus(tweet_text, safe="'")
     r = requests.get('https://api.textgears.com/grammar?text='+safe_string+'&language=fr-FR&whitelist=&dictionary_id=&key='+api_key) 
@@ -14,7 +14,7 @@ def correct_text(tweet_text, user_tweet_screen_name, api_key):
 
     try:
         if not py_obj["response"]["errors"]:
-            return f"Aucune erreur trouvée. Si il y'en a une, vous pouvez me DM : @{user_tweet_screen_name} {emoji.emojize(':thumbs_up:')}"
+            return f"Aucune erreur trouvée. Si il y'en a une, vous pouvez me DM : @noesautel {emoji.emojize(':thumbs_up:')}"
         else:
             description = py_obj["response"]["errors"][0]["description"]["en"]
             better = py_obj["response"]["errors"][0]["better"][0]

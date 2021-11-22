@@ -38,7 +38,7 @@ def check_mentions(api, since_id):
         elif api.get_status(tweet.in_reply_to_status_id).user.screen_name in auth_user_list :
             tweet_typo_prepared = api.get_status(tweet.in_reply_to_status_id).text
             tweet_typo = ' '.join(re.sub("(@[A-Za-z0-9_À-ÿ]+)|([^0-9A-Za-z_À-ÿ \t])|(\w+:\/\/\S+)"," ", tweet_typo_prepared).split())
-            tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_screen_name = tweet.user.screen_name, api_key = config.textgears_api())
+            tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, api_key = config.textgears_api())
             try :
                 api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
                 logger.info(f"Answered to {tweet.user.name}")
