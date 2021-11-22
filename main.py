@@ -1,5 +1,6 @@
 import tweepy
 import logging
+import emoji
 import config
 import time
 import textgears
@@ -23,10 +24,21 @@ def check_mentions(api, since_id):
         print([tweet.text, tweet.user.name, tweet.id, tweet.in_reply_to_status_id])
         if not tweet.in_reply_to_status_id:
             continue
+        elif api.get_status(tweet.in_reply_to_status_id).user.screen_name not in auth_user_list :
+            try :
+                api.update_status(status=f"Désolé, mais je ne corrige que les tweets de @ohmyxan {emoji.emojize(':red_heart:')}", in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
+                logger.info(f"Answered to {tweet.user.name} - @ohmyxan filter")
+                print(f"At {tweet.id}")                
+            except tweepy.errors.HTTPException as error:
+                if error.api_codes == [187]: # tweepy.errors.Forbidden: 403 Forbidden 187 - Status is a duplicate
+                    logger.info("Duplicate tweet")
+                    continue
+                else:
+                    raise error
         elif api.get_status(tweet.in_reply_to_status_id).user.screen_name in auth_user_list :
             tweet_typo_prepared = api.get_status(tweet.in_reply_to_status_id).text
             tweet_typo = ' '.join(re.sub("(@[A-Za-z0-9_À-ÿ]+)|([^0-9A-Za-z_À-ÿ \t])|(\w+:\/\/\S+)"," ", tweet_typo_prepared).split())
-            tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_name = tweet.user.name, api_key = config.textgears_api())
+            tweet_corrected = textgears.correct_text(tweet_text = tweet_typo, user_tweet_screen_name = tweet.user.screen_name, api_key = config.textgears_api())
             try :
                 api.update_status(status=tweet_corrected, in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
                 logger.info(f"Answered to {tweet.user.name}")
@@ -37,9 +49,9 @@ def check_mentions(api, since_id):
                     continue
                 else:
                     raise error
-            if not tweet.user.following and tweet.user.screen_name not in not_follow_self:
-                tweet.user.follow()
-                logger.info(f"user @{tweet.user.name} has just been followed" )
+        if not tweet.user.following and tweet.user.screen_name not in not_follow_self:
+            tweet.user.follow()
+            logger.info(f"user @{tweet.user.name} has just been followed" )
 
         config.since_id_write(current_since_id=new_since_id)
         return new_since_id
