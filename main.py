@@ -1,13 +1,14 @@
 import tweepy
 import logging
 import emoji
-import config
+import config_creds as config
 import time
 import textgears
 import re
 from PIL import Image, ImageChops
 import requests
 from io import BytesIO
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
@@ -26,7 +27,7 @@ def check_mentions(api, since_id):
             continue
         elif api.get_status(tweet.in_reply_to_status_id).user.screen_name not in auth_user_list :
             try :
-                api.update_status(status=f"Désolé, mais je ne corrige que les tweets de @ohmyxan {emoji.emojize(':red_heart:')}", in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
+                api.update_status(status=f"Désolé, mais je ne corrige que les tweets de @ohmyxan {emoji.emojize(':blue_heart:')}", in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
                 logger.info(f"Answered to {tweet.user.name} - @ohmyxan filter")
                 print(f"At {tweet.id}")                
             except tweepy.errors.HTTPException as error:
@@ -63,9 +64,14 @@ def invert_image(api, user):
         response = requests.get(img_raw)
         img = Image.open(BytesIO(response.content))
         inv_img = ImageChops.invert(img)
+        im1 = Image.open('profile_picture.jpg')
         inv_img.save('profile_picture.jpg')
-        api.update_profile_image('profile_picture.jpg')
-        logger.info("Profile picture updated")
+        im2 = Image.open('profile_picture.jpg')
+        if list(im1.getdata()) == list(im2.getdata()):
+            logger.info("Profile picture identifical ; no update.")
+        else:
+            api.update_profile_image('profile_picture.jpg')
+            logger.info("Profile picture updated")
         return None
     except Exception as e:
         logging.debug(e)    

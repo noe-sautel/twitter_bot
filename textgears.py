@@ -14,7 +14,7 @@ def correct_text(tweet_text, api_key):
 
     try:
         if not py_obj["response"]["errors"]:
-            return f"Aucune erreur trouvée. Si il y'en a une, vous pouvez me DM : @noesautel {emoji.emojize(':thumbs_up:')}"
+            return f"Aucune erreur trouvée. Si il y'en a une, vous pouvez me DM : @noesautel {emoji.emojize(':technologist_medium_skin_tone:')}"
         else:
             description = py_obj["response"]["errors"][0]["description"]["en"]
             better = py_obj["response"]["errors"][0]["better"][0]
