@@ -68,7 +68,7 @@ def invert_image(api, user):
         inv_img.save('profile_picture.jpg')
         im2 = Image.open('profile_picture.jpg')
         if list(im1.getdata()) == list(im2.getdata()):
-            logger.info("Profile picture identifical ; no update.")
+            logger.info("Profile picture identical ; no update.")
         else:
             api.update_profile_image('profile_picture.jpg')
             logger.info("Profile picture updated")
