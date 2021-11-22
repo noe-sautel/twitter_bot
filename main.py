@@ -12,6 +12,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 auth_user_list = ['ohmyxan', 'noesautel']
+not_follow_self = ['narcoticsqueed', 'noesautel']
 
 def check_mentions(api, since_id):
     logger.info("Retrieving mentions")
@@ -36,7 +37,7 @@ def check_mentions(api, since_id):
                     continue
                 else:
                     raise error
-            if not tweet.user.following and tweet.user.name != 'Noé' :
+            if not tweet.user.following and tweet.user.screen_name not in not_follow_self:
                 tweet.user.follow()
                 logger.info(f"user @{tweet.user.name} has just been followed" )
 
