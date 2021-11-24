@@ -1,7 +1,7 @@
 import tweepy
 import logging
 import emoji
-import config_creds as config
+import config
 import time
 import textgears
 import re
@@ -82,13 +82,18 @@ def invert_image(api, user):
         logging.debug(e)    
 
 def main():
-    api = config.create_api()
-    since_id = config.since_id_read()
-    while True:
-        check_mentions(api=api, keywords =["ohmyxan_nemesis"], since_id=since_id)
-        invert_image(api=api, user='ohmyxan')
-        logger.info("Waiting...")
-        time.sleep(60)
+    try:
+        api = config.create_api()
+        since_id = config.since_id_read()
+        while True:
+            check_mentions(api=api, keywords =["ohmyxan_nemesis"], since_id=since_id)
+            invert_image(api=api, user='ohmyxan')
+            logger.info("Waiting...")
+            time.sleep(60)
+    except Exception as e:
+        config.send_mail_err(str(e))
+        logger.error(f"{str(e)}")
+        raise e
 
 if __name__ == "__main__":
     main()

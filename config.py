@@ -2,11 +2,41 @@ import tweepy
 import logging
 # import json
 from os import environ
+import ssl
+import smtplib
 
 logger = logging.getLogger()
 
 # with open('credentials.json') as json_file:
 #     creds = json.load(json_file)
+
+
+def send_mail_err(error_content):
+    # Create a secure SSL context
+    context = ssl.create_default_context()
+    port = 465  # For SSL
+    login = environ.get('gmail_log')
+    password = environ.get('gmail_pass')
+
+    sender_email = login
+    receiver_email = environ.get('icloud_log')
+    message = f"""Subject: Heroku : twitter-bot-ohmyxan error
+
+    Une erreur a été detecté pour @ohmyxan_nemesis.
+
+    Heroku: https://dashboard.heroku.com/apps/twitter-bot-ohmyxan/resources
+    Twitter : https://twitter.com/ohmyxan_nemesis
+
+    Détails de l'erreur
+    ---
+    {error_content}
+    ---
+    """.encode("utf-8")
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
+        server.login(login, password)
+        server.sendmail(sender_email, receiver_email, message)
+
 
 def create_api():
     consumer_key =  environ.get('api_key') # creds["api_key"] # "CONSUMER_KEY"
