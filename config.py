@@ -18,7 +18,7 @@ def send_mail_err(error_content):
     login = environ.get('gmail_log')
     password = environ.get('gmail_pass')
 
-    sender_email = login
+    sender_email = environ.get('gmail_log')
     receiver_email = environ.get('icloud_log')
     message = f"""Subject: Heroku : twitter-bot-ohmyxan error
 
