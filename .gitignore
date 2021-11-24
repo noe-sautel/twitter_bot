@@ -1,3 +1,5 @@
 *.json
 data.txt
 config_creds.py
+*.log
+mongodb.py
