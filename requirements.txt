@@ -2,5 +2,3 @@ demjson==2.2.4
 Pillow==8.4.0
 tweepy==4.2.0
 emoji==1.6.1
-ssl
-smtplib
