@@ -1,7 +1,7 @@
 import tweepy
 import logging
 import emoji
-import config
+import config_creds as config
 import time
 import textgears
 import re
@@ -30,7 +30,19 @@ def check_mentions(api, keywords, since_id):
     for tweet in tweepy.Cursor(api.mentions_timeline, since_id = since_id).items():
         new_since_id = max(tweet.id, new_since_id)
         logging.info(f"CURSOR : [text]:{tweet.text}, [user.name]:{tweet.user.name}, [id]:{tweet.id}, [in_reply_to_status_id]:{tweet.in_reply_to_status_id}")
-        print(api.get_status(id, tweet_mode="extended"))
+
+        try:
+            api.get_status(tweet.in_reply_to_status_id)
+        except tweepy.errors.HTTPException as error:
+            # tweepy.errors.NotFound: 404 Not Found - 144 - No status found with that ID.
+            # tweepy.errors.NotFound: 404 Not Found - 8 - No data available for specified ID
+            # happen when a tweet is deleted
+            if error.api_codes == [144] or error.api_codes == [8]: 
+                continue
+            else:
+                raise error
+        
+        # when it is not in a reply, continue
         if not tweet.in_reply_to_status_id:
             continue
         elif api.get_status(tweet.in_reply_to_status_id).user.screen_name not in auth_user_list and any(keyword in tweet.text for keyword in keywords):
@@ -53,7 +65,7 @@ def check_mentions(api, keywords, since_id):
             except tweepy.errors.HTTPException as error:
                 if error.api_codes == [187]: # tweepy.errors.Forbidden: 403 Forbidden 187 - Status is a duplicate
                     logger.warning(f"Duplicate tweet {tweet.id}")
-                    continue # Check if incrementation on the cursor worked
+                    continue
                 else:
                     raise error
         if not tweet.user.following and tweet.user.screen_name not in not_follow_self:
@@ -66,7 +78,7 @@ def check_mentions(api, keywords, since_id):
 def invert_image(api, user):
     try:
         lookup_user = api.lookup_users(screen_name=[user])[0]
-        img_raw = ''.join(re.sub("_normal"," ", lookup_user.profile_image_url_https).split()) # le retrait de _normal permet de passer en 400*400px au lieu d'une miniature
+        img_raw = ''.join(re.sub("_normal"," ", lookup_user.profile_image_url_https).split()) # withdraw "_normal" get a 400*400px img instead of miniature
         response = requests.get(img_raw)
         img = Image.open(BytesIO(response.content))
         inv_img = ImageChops.invert(img)
