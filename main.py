@@ -29,11 +29,12 @@ def check_mentions(api, keywords, since_id):
 
     for tweet in tweepy.Cursor(api.mentions_timeline, since_id = since_id).items():
         new_since_id = max(tweet.id, new_since_id)
-        logging.info(f"CURSOR : text:{tweet.text}, user.name:{tweet.user.name}, id:{tweet.id}, in_reply_to_status_id:{tweet.in_reply_to_status_id}")
+        logging.info(f"CURSOR : [text]:{tweet.text}, [user.name]:{tweet.user.name}, [id]:{tweet.id}, [in_reply_to_status_id]:{tweet.in_reply_to_status_id}")
+        print(api.get_status(id, tweet_mode="extended"))
         if not tweet.in_reply_to_status_id:
             continue
         elif api.get_status(tweet.in_reply_to_status_id).user.screen_name not in auth_user_list and any(keyword in tweet.text for keyword in keywords):
-            try :
+            try:
                 api.update_status(status=f"Désolé, mais je ne corrige que les tweets de @ohmyxan {emoji.emojize(':blue_heart:')}", in_reply_to_status_id=tweet.id, auto_populate_reply_metadata=True)
                 logger.info(f"Answered to {tweet.user.name} on {tweet.id} with @ohmyxan filter")       
             except tweepy.errors.HTTPException as error:
@@ -52,7 +53,7 @@ def check_mentions(api, keywords, since_id):
             except tweepy.errors.HTTPException as error:
                 if error.api_codes == [187]: # tweepy.errors.Forbidden: 403 Forbidden 187 - Status is a duplicate
                     logger.warning(f"Duplicate tweet {tweet.id}")
-                    continue
+                    continue # Check if incrementation on the cursor worked
                 else:
                     raise error
         if not tweet.user.following and tweet.user.screen_name not in not_follow_self:
@@ -86,7 +87,7 @@ def main():
         api = config.create_api()
         since_id = config.since_id_read()
         while True:
-            check_mentions(api=api, keywords =["ohmyxan_nemesis"], since_id=since_id)
+            check_mentions(api=api, keywords =["grammaire"],since_id=since_id)
             invert_image(api=api, user='ohmyxan')
             logger.info("Waiting...")
             time.sleep(60)

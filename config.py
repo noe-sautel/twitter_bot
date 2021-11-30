@@ -1,15 +1,10 @@
-import tweepy
-import logging
-# import json
 from os import environ
-import ssl
+import logging
 import smtplib
+import ssl
+import tweepy
 
 logger = logging.getLogger()
-
-# with open('credentials.json') as json_file:
-#     creds = json.load(json_file)
-
 
 def send_mail_err(error_content):
     # Create a secure SSL context
@@ -37,6 +32,7 @@ def send_mail_err(error_content):
         server.login(login, password)
         server.sendmail(sender_email, receiver_email, message)
 
+    logger.info("Email error sent")
 
 def create_api():
     consumer_key =  environ.get('api_key') # creds["api_key"] # "CONSUMER_KEY"
