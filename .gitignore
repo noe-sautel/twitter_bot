@@ -1,5 +1,4 @@
 *.json
-*.log
 *.pyc
 config_creds.py
 data.txt

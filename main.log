@@ -1,0 +1,185 @@
+2021-11-30 20:02:35,494 [INFO] Tweeter API created
+2021-11-30 20:02:35,495 [INFO] Retrieving mentions
+2021-11-30 20:02:35,847 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:02:36,873 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2021-11-30 20:04:01,462 [INFO] Tweeter API created
+2021-11-30 20:04:01,464 [INFO] Retrieving mentions
+2021-11-30 20:04:04,331 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:04:37,814 [INFO] Tweeter API created
+2021-11-30 20:04:37,816 [INFO] Retrieving mentions
+2021-11-30 20:04:40,539 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:10:16,052 [INFO] Tweeter API created
+2021-11-30 20:10:16,054 [INFO] Retrieving mentions
+2021-11-30 20:10:17,566 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:11:07,767 [INFO] Tweeter API created
+2021-11-30 20:11:07,768 [INFO] Retrieving mentions
+2021-11-30 20:11:09,449 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:11:16,457 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2021-11-30 20:14:03,927 [INFO] Tweeter API created
+2021-11-30 20:14:03,928 [INFO] Retrieving mentions
+2021-11-30 20:14:07,264 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:14:46,391 [INFO] Tweeter API created
+2021-11-30 20:14:46,392 [INFO] Retrieving mentions
+2021-11-30 20:14:50,726 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:14:58,895 [INFO] Tweeter API created
+2021-11-30 20:14:58,896 [INFO] Retrieving mentions
+2021-11-30 20:14:59,971 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:16:50,105 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2021-11-30 20:16:56,826 [INFO] Tweeter API created
+2021-11-30 20:16:56,827 [INFO] Retrieving mentions
+2021-11-30 20:17:00,235 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:17:26,132 [INFO] Tweeter API created
+2021-11-30 20:17:26,134 [INFO] Retrieving mentions
+2021-11-30 20:17:28,266 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
+2021-11-30 20:19:21,097 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis @lucasgindreau Et on ne dit pas « de base » mais «  à la base » 
+Super projet btw, j’espè… https://t.co/DLuBeEtSBV, [user.name]:Greg de la 6T 🦆, [id]:1463052117279711235, [in_reply_to_status_id]:1462847908642971651
+2021-11-30 20:19:51,003 [WARNING] Profile picture identical ; no update.
+2021-11-30 20:20:31,676 [INFO] Tweeter API created
+2021-11-30 20:20:31,676 [INFO] Retrieving mentions
+2021-11-30 20:20:32,389 [WARNING] Profile picture identical ; no update.
+2021-11-30 20:20:32,389 [INFO] Waiting...
+2021-11-30 20:20:42,758 [INFO] Tweeter API created
+2021-11-30 20:20:42,759 [INFO] Retrieving mentions
+2021-11-30 20:20:43,449 [WARNING] Profile picture identical ; no update.
+2021-11-30 20:20:43,449 [INFO] Waiting...
+2021-11-30 20:20:53,216 [INFO] Tweeter API created
+2021-11-30 20:20:53,217 [INFO] Retrieving mentions
+2021-11-30 20:20:53,876 [WARNING] Profile picture identical ; no update.
+2021-11-30 20:20:53,876 [INFO] Waiting...
+2021-11-30 20:21:38,677 [INFO] Tweeter API created
+2021-11-30 20:21:38,678 [INFO] Retrieving mentions
+2021-11-30 20:22:22,094 [INFO] Tweeter API created
+2021-11-30 20:22:22,095 [INFO] Retrieving mentions
+2021-11-30 20:22:27,278 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis @ohmyxan_nemesis grammaire, [user.name]:Noé, [id]:1465763131930595329, [in_reply_to_status_id]:1465753290675736582
+2021-11-30 20:22:53,333 [INFO] Tweeter API created
+2021-11-30 20:22:53,335 [INFO] Retrieving mentions
+2021-11-30 20:22:56,708 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis @ohmyxan_nemesis grammaire, [user.name]:Noé, [id]:1465763131930595329, [in_reply_to_status_id]:1465753290675736582
+2021-11-30 20:25:47,850 [INFO] Tweeter API created
+2021-11-30 20:25:47,851 [INFO] Retrieving mentions
+2021-11-30 20:25:51,124 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis @ohmyxan_nemesis grammaire, [user.name]:Noé, [id]:1465763131930595329, [in_reply_to_status_id]:1465753290675736582
+2021-11-30 20:25:56,765 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2021-11-30 20:28:19,246 [INFO] Tweeter API created
+2021-11-30 20:28:19,248 [INFO] Retrieving mentions
+2021-11-30 20:28:23,884 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis @ohmyxan_nemesis grammaire, [user.name]:Noé, [id]:1465763131930595329, [in_reply_to_status_id]:1465753290675736582
+2021-12-01 11:53:19,561 [INFO] Tweeter API created
+2021-12-01 11:53:19,563 [INFO] Retrieving mentions
+2021-12-01 11:53:27,240 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan @3615_rene @ohmyxan_nemesis, [user.name]:✨la street ✨, [id]:1465772195020525569, [in_reply_to_status_id]:1465770980601741315
+2021-12-01 11:53:57,351 [INFO] Tweeter API created
+2021-12-01 11:53:57,351 [INFO] Retrieving mentions
+2021-12-01 11:54:00,034 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan @3615_rene @ohmyxan_nemesis, [user.name]:✨la street ✨, [id]:1465772195020525569, [in_reply_to_status_id]:1465770980601741315
+2021-12-01 12:14:45,500 [INFO] Tweeter API created
+2021-12-01 12:14:45,501 [INFO] Retrieving mentions
+2021-12-01 12:15:18,541 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan @3615_rene @ohmyxan_nemesis, [user.name]:✨la street ✨, [id]:1465772195020525569, [in_reply_to_status_id]:1465770980601741315
+2022-01-01 21:27:48,129 [INFO] Tweeter API created
+2022-01-01 21:27:48,130 [INFO] Retrieving mentions
+2022-01-01 21:27:48,382 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-01 21:29:13,611 [INFO] Tweeter API created
+2022-01-01 21:29:13,612 [INFO] Retrieving mentions
+2022-01-01 21:29:13,894 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-01 21:30:49,875 [INFO] Tweeter API created
+2022-01-01 21:30:49,876 [INFO] Retrieving mentions
+2022-01-01 21:30:50,152 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-01 21:33:00,620 [INFO] Tweeter API created
+2022-01-01 21:33:00,620 [INFO] Retrieving mentions
+2022-01-01 21:33:00,879 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 19:05:31,658 [INFO] Tweeter API created
+2022-01-02 19:05:31,660 [INFO] Retrieving mentions
+2022-01-02 19:05:31,929 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 19:59:21,314 [INFO] Tweeter API created
+2022-01-02 19:59:21,315 [INFO] Retrieving mentions
+2022-01-02 19:59:21,713 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 20:31:08,786 [INFO] Tweeter API created
+2022-01-02 20:31:44,555 [INFO] Retrieving mentions
+2022-01-02 20:31:59,777 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 20:34:48,151 [ERROR] 'Status' object has no attribute 'full_text'
+2022-01-02 20:37:07,562 [INFO] Tweeter API created
+2022-01-02 20:37:09,809 [INFO] Retrieving mentions
+2022-01-02 20:37:28,786 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 20:43:33,519 [INFO] CURSOR : [text]:@ohmyxan_nemesis Tu gères bâtard, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228192960712708,                     [in_reply_to_status_id]:1476227840354013196
+2022-01-02 20:44:06,077 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan Je tiens à présenter mes excuses sur le délais de maintenance de ce bot. Beaucoup de chan… https://t.co/rIhSvtWrBH, [user.name]:Noé,                 [id]:1468977448847126529,                     [in_reply_to_status_id]:1465767933385265163
+2022-01-02 20:45:48,002 [INFO] Tweeter API created
+2022-01-02 20:45:52,798 [INFO] Retrieving mentions
+2022-01-02 20:45:53,087 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 20:45:53,993 [INFO] CURSOR : [text]:@ohmyxan_nemesis Tu gères bâtard, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228192960712708,                     [in_reply_to_status_id]:1476227840354013196
+2022-01-02 20:45:54,992 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan Je tiens à présenter mes excuses sur le délais de maintenance de ce bot. Beaucoup de chan… https://t.co/rIhSvtWrBH, [user.name]:Noé,                 [id]:1468977448847126529,                     [in_reply_to_status_id]:1465767933385265163
+2022-01-02 20:45:55,982 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis Yes merci mordre mordu etc je gères mais j’avoue j’ai pas eu le réflexe de… https://t.co/52E7AAhcT5, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468537570703388672,                     [in_reply_to_status_id]:1468536993558769666
+2022-01-02 20:45:57,058 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis Merde 
+Du coup on écrit “a même pas osé” oser étant ici un participe-passé camarade sartorial, [user.name]:✨la street ✨,                 [id]:1468536993558769666,                     [in_reply_to_status_id]:1468536036515102724
+2022-01-02 20:45:58,145 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis (Il est offline), [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468536036515102724,                     [in_reply_to_status_id]:1468534443375747073
+2022-01-02 20:45:59,124 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis, [user.name]:✨la street ✨,                 [id]:1468534443375747073,                     [in_reply_to_status_id]:1468533669283389444
+2022-01-02 20:46:12,919 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-01-02 20:49:48,527 [INFO] Tweeter API created
+2022-01-02 20:49:53,788 [INFO] Retrieving mentions
+2022-01-02 20:49:57,892 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 22:08:50,921 [INFO] Tweeter API created
+2022-01-02 22:08:55,883 [INFO] Retrieving mentions
+2022-01-02 22:09:18,306 [INFO] CURSOR : [text]:@ohmyxan_nemesis 🤲 cimer Albert sache que j’ai mis l’accent sur le À de bâtard parce que je croyais me faire roast 🤲, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228492605984771,                     [in_reply_to_status_id]:1476228239769194502
+2022-01-02 22:10:49,059 [INFO] CURSOR : [text]:@ohmyxan_nemesis Tu gères bâtard, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228192960712708,                     [in_reply_to_status_id]:1476227840354013196
+2022-01-02 22:12:38,681 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan Je tiens à présenter mes excuses sur le délais de maintenance de ce bot. Beaucoup de chan… https://t.co/rIhSvtWrBH, [user.name]:Noé,                 [id]:1468977448847126529,                     [in_reply_to_status_id]:1465767933385265163
+2022-01-02 22:13:12,888 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis Yes merci mordre mordu etc je gères mais j’avoue j’ai pas eu le réflexe de… https://t.co/52E7AAhcT5, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468537570703388672,                     [in_reply_to_status_id]:1468536993558769666
+2022-01-02 22:13:38,010 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis Merde 
+Du coup on écrit “a même pas osé” oser étant ici un participe-passé camarade sartorial, [user.name]:✨la street ✨,                 [id]:1468536993558769666,                     [in_reply_to_status_id]:1468536036515102724
+2022-01-02 22:13:52,300 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis (Il est offline), [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468536036515102724,                     [in_reply_to_status_id]:1468534443375747073
+2022-01-02 22:16:20,674 [INFO] Tweeter API created
+2022-01-02 22:16:20,675 [INFO] Retrieving mentions
+2022-01-02 22:16:20,943 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Noé,                 [id]:1477841176032071681,                     [in_reply_to_status_id]:1476224570088726535
+2022-01-02 22:16:22,715 [INFO] Textgears API created
+2022-01-02 22:16:25,451 [ERROR] 'dict' object has no attribute 'has_key'
+2022-01-02 22:21:32,908 [INFO] Tweeter API created
+2022-01-02 22:21:32,908 [INFO] Retrieving mentions
+2022-01-02 22:21:33,191 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Noé,                 [id]:1477841176032071681,                     [in_reply_to_status_id]:1476224570088726535
+2022-01-02 22:21:38,361 [INFO] Textgears API created
+2022-01-02 22:21:40,462 [ERROR] 'dict' object has no attribute 'has_key'
+2022-01-02 22:22:53,728 [INFO] Tweeter API created
+2022-01-02 22:22:53,729 [INFO] Retrieving mentions
+2022-01-02 22:22:54,001 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Noé,                 [id]:1477841176032071681,                     [in_reply_to_status_id]:1476224570088726535
+2022-01-02 22:22:55,514 [INFO] Textgears API created
+2022-01-02 22:22:57,395 [ERROR] name 'breakf' is not defined
+2022-01-02 22:29:01,531 [INFO] Tweeter API created
+2022-01-02 22:29:01,532 [INFO] Retrieving mentions
+2022-01-02 22:29:01,840 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Noé,                 [id]:1477843567351672842,                     [in_reply_to_status_id]:1475758000308641799
+2022-01-02 22:29:03,349 [INFO] Textgears API created
+2022-01-02 22:29:05,429 [ERROR] 'dict' object has no attribute 'has_key'
+2022-01-02 22:39:53,773 [INFO] Tweeter API created
+2022-01-02 22:39:53,775 [INFO] Retrieving mentions
+2022-01-02 22:39:54,178 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Noé,                 [id]:1477843567351672842,                     [in_reply_to_status_id]:1475758000308641799
+2022-01-02 22:39:56,067 [INFO] Textgears API created
+2022-01-02 22:39:58,503 [ERROR] 'dict' object has no attribute 'has_key'
+2022-01-02 22:40:08,444 [INFO] ascii passed initial chaos probing. Mean measured chaos is 0.000000 %
+2022-01-02 22:40:08,445 [INFO] ascii should target any language(s) of ['Latin Based']
+2022-01-02 22:40:08,448 [INFO] We detected language [('English', 1.0), ('Dutch', 1.0), ('Italian', 1.0)] using ascii
+2022-01-02 22:40:08,448 [INFO] ascii is most likely the one. Stopping the process.
+2022-01-02 23:18:07,922 [INFO] Tweeter API created
+2022-01-02 23:18:07,923 [INFO] Retrieving mentions
+2022-01-02 23:18:08,234 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Noé,                 [id]:1477843567351672842,                     [in_reply_to_status_id]:1475758000308641799
+2022-01-02 23:18:09,947 [INFO] Textgears API created
+2022-01-02 23:18:11,100 [INFO] Answered to Noé on 1477843567351672842: Faute de frappe possible trouvée. "bétaïne" .
+2022-01-02 23:18:14,563 [INFO] Profile picture updated.
+2022-01-02 23:18:14,563 [INFO] Waiting...
+2022-01-02 23:18:38,639 [INFO] Tweeter API created
+2022-01-02 23:18:38,640 [INFO] Retrieving mentions
+2022-01-02 23:18:40,789 [INFO] Profile picture identical ; no update.
+2022-01-02 23:18:40,790 [INFO] Waiting...
+2022-01-02 23:19:18,260 [INFO] Tweeter API created
+2022-01-02 23:19:18,261 [INFO] Retrieving mentions
+2022-01-02 23:19:18,549 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan grammaire des chats, [user.name]:Noé,                 [id]:1477857044589862914,                     [in_reply_to_status_id]:1477856791967019008
+2022-01-02 23:19:19,692 [INFO] Answered to Noé on 1477857044589862914 with @ohmyxan filter
+2022-01-02 23:19:20,277 [INFO] Profile picture identical ; no update.
+2022-01-02 23:19:20,277 [INFO] Waiting...
+2022-01-02 23:21:29,609 [INFO] Tweeter API created
+2022-01-02 23:21:29,611 [INFO] Retrieving mentions
+2022-01-02 23:21:29,946 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan grammaire test test, [user.name]:Noé,                 [id]:1477857608606400512,                     [in_reply_to_status_id]:1477856791967019008
+2022-01-02 23:21:31,192 [INFO] Answered to Noé on 1477857608606400512 with @ohmyxan filter
+2022-01-02 23:21:31,987 [INFO] Profile picture identical ; no update.
+2022-01-02 23:21:31,987 [INFO] Waiting...
+2022-01-02 23:22:31,992 [INFO] Retrieving mentions
+2022-01-02 23:22:32,287 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan grammaire test test, [user.name]:Noé,                 [id]:1477857608606400512,                     [in_reply_to_status_id]:1477856791967019008
+2022-01-02 23:22:33,566 [WARNING] Duplicate tweet 1477857608606400512.
+2022-01-02 23:22:33,566 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan test, [user.name]:Noé,                 [id]:1477857577065144324,                     [in_reply_to_status_id]:1477856791967019008
+2022-01-02 23:22:35,241 [INFO] Profile picture identical ; no update.
+2022-01-02 23:22:35,242 [INFO] Waiting...
