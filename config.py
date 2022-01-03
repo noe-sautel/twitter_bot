@@ -80,9 +80,3 @@ def since_id_write(current_since_id):
 def time_sleep(my_function, seconds):
     time.sleep(seconds)
     return my_function
-
-
-import threading
-
-while True:
-    time_sleep(print(1), 3)
