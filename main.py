@@ -1,7 +1,8 @@
 import tweepy
 import logging
 import emoji
-import config_creds as config
+# import config_creds as config
+import config
 import time
 import textgears
 import re
