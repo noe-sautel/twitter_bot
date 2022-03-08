@@ -1,6 +1,7 @@
 import tweepy
 import logging
 import emoji
+
 # import config_creds as config
 import config
 import time
@@ -10,9 +11,10 @@ from PIL import Image, ImageChops
 import requests
 from io import BytesIO
 
-# TODO:  add threading for the img w/ an upd a day
-# TODO: check if possible to have two threads w/ a while loop for check_mentions and invert_image
-# TODO: update the bio zith current bot status
+# TODO: add threading for the img w/ an upd a day
+# TODO: check if possible to have two threads w/
+#       a while loop for check_mentions and invert_image
+# TODO: update the bio with current bot status
 
 
 logging.basicConfig(
@@ -39,15 +41,17 @@ def check_mentions(api, keywords, since_id):
                     [in_reply_to_status_id]:{tweet.in_reply_to_status_id}"
         )
         print("tweet.text: " + str(tweet.text))
-        print("tweet.in_reply_to_status_id: " + str(tweet.in_reply_to_status_id))
-        print("tweet.in_reply_to_status_id.user.screen_name: " + str(api.get_status(tweet.in_reply_to_status_id).user.screen_name))
-        # print(tweet.full_text)
+        print(f"tweet.in_reply_to_status_id: {tweet.in_reply_to_status_id}")
+        print(
+            f"tweet.in_reply_to_status_id.user.screen_name:, \
+                {api.get_status(tweet.in_reply_to_status_id).user.screen_name}"
+        )
 
         try:
             api.get_status(tweet.in_reply_to_status_id)
         except tweepy.errors.HTTPException as error:
-            # tweepy.errors.NotFound: 404 Not Found - 144 - No status found with that ID.
-            # tweepy.errors.NotFound: 404 Not Found - 8 - No data available for specified ID
+            # 404 Not Found - 144 - No status found with that ID.
+            # 404 Not Found - 8 - No data available for specified ID
             # happen when a tweet is deleted
             if error.api_codes == [144] or error.api_codes == [8]:
                 continue
@@ -64,7 +68,9 @@ def check_mentions(api, keywords, since_id):
         ):
             try:
                 api.update_status(
-                    status=f"Désolé, mais je ne corrige que les tweets de @ohmyxan {emoji.emojize(':blue_heart:')} Et je ne le fais qu'une seule fois par thread.",
+                    status=f"Désolé, mais je ne corrige que les tweets de "
+                    f"@ohmyxan {emoji.emojize(':blue_heart:')} Et je "
+                    f"ne le fais qu'une seule fois par thread.",
                     in_reply_to_status_id=tweet.id,
                     auto_populate_reply_metadata=True,
                 )
@@ -104,12 +110,13 @@ def check_mentions(api, keywords, since_id):
                     auto_populate_reply_metadata=True,
                 )
                 logger.info(
-                    f"Answered to {tweet.user.name} on {tweet.id}: {tweet_corrected}."
+                    f"Answered to {tweet.user.name} "
+                    f"on {tweet.id}: {tweet_corrected}."
                 )
             except tweepy.errors.HTTPException as error:
                 if error.api_codes == [
                     187
-                ]:  # tweepy.errors.Forbidden: 403 Forbidden 187 - Status is a duplicate
+                ]:  # 403 Forbidden 187 - Status is a duplicate
                     logger.warning(f"Duplicate tweet {tweet.id}")
                     continue
                 else:
@@ -151,7 +158,9 @@ def main():
         api = config.create_api()
         since_id = config.since_id_read()
         while True:
-            # threading.Thread(target=check_mentions(api=api, keywords =["grammaire"],since_id=since_id)).start()
+            # threading.Thread
+            # (target=check_mentions(api=api, keywords =["grammaire"],
+            # since_id=since_id)).start()
             # threading.Thread(
             #     target=check_mentions(
             #         api=api, keywords=["grammaire"], since_id=since_id
