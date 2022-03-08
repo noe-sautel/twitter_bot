@@ -34,7 +34,7 @@
 2021-11-30 20:17:26,132 [INFO] Tweeter API created
 2021-11-30 20:17:26,134 [INFO] Retrieving mentions
 2021-11-30 20:17:28,266 [INFO] CURSOR : [text]:@ohmyxan @EnConfinement @ohmyxan_nemesis test2, [user.name]:Noé, [id]:1465753290675736582, [in_reply_to_status_id]:1465753265942020096
-2021-11-30 20:19:21,097 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis @lucasgindreau Et on ne dit pas « de base » mais «  à la base » 
+2021-11-30 20:19:21,097 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis @lucasgindreau Et on ne dit pas « de base » mais «  à la base »
 Super projet btw, j’espè… https://t.co/DLuBeEtSBV, [user.name]:Greg de la 6T 🦆, [id]:1463052117279711235, [in_reply_to_status_id]:1462847908642971651
 2021-11-30 20:19:51,003 [WARNING] Profile picture identical ; no update.
 2021-11-30 20:20:31,676 [INFO] Tweeter API created
@@ -107,7 +107,7 @@ Super projet btw, j’espè… https://t.co/DLuBeEtSBV, [user.name]:Greg de la 6
 2022-01-02 20:45:53,993 [INFO] CURSOR : [text]:@ohmyxan_nemesis Tu gères bâtard, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228192960712708,                     [in_reply_to_status_id]:1476227840354013196
 2022-01-02 20:45:54,992 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan Je tiens à présenter mes excuses sur le délais de maintenance de ce bot. Beaucoup de chan… https://t.co/rIhSvtWrBH, [user.name]:Noé,                 [id]:1468977448847126529,                     [in_reply_to_status_id]:1465767933385265163
 2022-01-02 20:45:55,982 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis Yes merci mordre mordu etc je gères mais j’avoue j’ai pas eu le réflexe de… https://t.co/52E7AAhcT5, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468537570703388672,                     [in_reply_to_status_id]:1468536993558769666
-2022-01-02 20:45:57,058 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis Merde 
+2022-01-02 20:45:57,058 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis Merde
 Du coup on écrit “a même pas osé” oser étant ici un participe-passé camarade sartorial, [user.name]:✨la street ✨,                 [id]:1468536993558769666,                     [in_reply_to_status_id]:1468536036515102724
 2022-01-02 20:45:58,145 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis (Il est offline), [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468536036515102724,                     [in_reply_to_status_id]:1468534443375747073
 2022-01-02 20:45:59,124 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis, [user.name]:✨la street ✨,                 [id]:1468534443375747073,                     [in_reply_to_status_id]:1468533669283389444
@@ -122,7 +122,7 @@ Du coup on écrit “a même pas osé” oser étant ici un participe-passé cam
 2022-01-02 22:10:49,059 [INFO] CURSOR : [text]:@ohmyxan_nemesis Tu gères bâtard, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1476228192960712708,                     [in_reply_to_status_id]:1476227840354013196
 2022-01-02 22:12:38,681 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan Je tiens à présenter mes excuses sur le délais de maintenance de ce bot. Beaucoup de chan… https://t.co/rIhSvtWrBH, [user.name]:Noé,                 [id]:1468977448847126529,                     [in_reply_to_status_id]:1465767933385265163
 2022-01-02 22:13:12,888 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis Yes merci mordre mordu etc je gères mais j’avoue j’ai pas eu le réflexe de… https://t.co/52E7AAhcT5, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468537570703388672,                     [in_reply_to_status_id]:1468536993558769666
-2022-01-02 22:13:38,010 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis Merde 
+2022-01-02 22:13:38,010 [INFO] CURSOR : [text]:@ohmyxan @VyasaJeerasoo @ohmyxan_nemesis Merde
 Du coup on écrit “a même pas osé” oser étant ici un participe-passé camarade sartorial, [user.name]:✨la street ✨,                 [id]:1468536993558769666,                     [in_reply_to_status_id]:1468536036515102724
 2022-01-02 22:13:52,300 [INFO] CURSOR : [text]:@K2lian1 @VyasaJeerasoo @ohmyxan_nemesis (Il est offline), [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1468536036515102724,                     [in_reply_to_status_id]:1468534443375747073
 2022-01-02 22:16:20,674 [INFO] Tweeter API created

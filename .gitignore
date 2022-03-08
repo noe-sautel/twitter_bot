@@ -3,3 +3,5 @@
 config_creds.py
 data.txt
 mongodb.py
+.vscode
+.DS_Store

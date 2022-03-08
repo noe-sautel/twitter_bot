@@ -13,12 +13,12 @@ Procfile : Fichier de configuration pour heroku
 profile_picture.jpg : Photo de profil de l'utilisateur
 requirements.text : Fichier permettant d'installer les librairies requises au bon fonctionnement du programme
 since_id.text : Fichier qui garde en mémoire l'identifiant du dernier tweet lu permettant d'avoir une base de départ pour le programme
-textgears.py : Fonction pour se connecter à l'API de textgears et nettoyer le text des tweets et gérer les erreurs. 
+textgears.py : Fonction pour se connecter à l'API de textgears et nettoyer le text des tweets et gérer les erreurs.
 
 
 # How use this project as your own
 ## Credentials
-Le programme a besoin des credentiales pour se connecter aux APIs ci-dessous. Pour Twitter, vous trouverez votre bonheur sur https://developer.twitter.com, pour textgear https://textgears.com/, smtplib correspond aux identifiants de votre serveur de messagerie. 
+Le programme a besoin des credentiales pour se connecter aux APIs ci-dessous. Pour Twitter, vous trouverez votre bonheur sur https://developer.twitter.com, pour textgear https://textgears.com/, smtplib correspond aux identifiants de votre serveur de messagerie.
 	Twitter : consumer_key, consumer_secret, access_token, access_token_secret
 	textgear : textgear_api
 	smtplib : login, password, sender_email, receiver_email
@@ -27,7 +27,7 @@ Sur https://www.heroku.com/, vous pouvez héberger votre programme et le faire f
 ## main.py
 Le fichier main.py est le coeur du programme, vous pouvez changer les valeurs des listes "auth_user_list" et "not_follow_self" pour changer respectivement la valeur de l'utilisateur spécifique et les les valeurs des utilisateurs à ne pas follow : en l'occurence soit même lorsque souhaite corriger son propre tweet.
 
-Le programme fonctionne en multithreatdeading. 
+Le programme fonctionne en multithreatdeading.
 Le premier permet d'aller récupérer les tweets dans lesquels le bot est mentionné, puis utilisera textgears.py pour nettoyer le texte du tweet. Il répondra ensuite à l'utilisateur qui l'a mentionné avec la correction appropriée. Lorsqu'un utilisateur utilise le bot pour corriger un tweet n'émanant pas de l'utilisateur spécifique, une réponse sous forme de tweet sera apporté indiquant qu'il n'est pas possible d'apporter une quelconque correction.
 Le second va récupérer l'image de l'utilisateur spécifique, puis vérifie si celle-ci diffère de celle précédement enregistrée. Si ce n'est pas le cas, alors rien ne se passe ; si elle est différente, la nouvelle image est enregistré, puis ses couleurs sont inversés pour créer un effet négatif froid avant d'être téléchargé en tant que photo de profil de l'utilisateur spécifique.
 

@@ -9,7 +9,7 @@ def correct_text(tweet_text, api_key):
     safe_string = urllib.parse.quote_plus(tweet_text, safe="'")
     print("safe_string:" + str(safe_string))
     print("tweet_text:" + str(tweet_text))
-    r = requests.get('https://api.textgears.com/grammar?text='+safe_string+'&language=fr-FR&whitelist=&dictionary_id=&key='+api_key) 
+    r = requests.get('https://api.textgears.com/grammar?text='+safe_string+'&language=fr-FR&whitelist=&dictionary_id=&key='+api_key)
     pretty_json = json.loads(r.text)
     data = json.dumps(pretty_json, indent=2)
     print(data)

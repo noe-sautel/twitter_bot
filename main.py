@@ -10,8 +10,9 @@ from PIL import Image, ImageChops
 import requests
 from io import BytesIO
 
-## TODO add threading for the img w/ an upd a day
-## TODO check if possible to have two threads w/ a while loop for check_mentions and invert_image
+# TODO:  add threading for the img w/ an upd a day
+# TODO: check if possible to have two threads w/ a while loop for check_mentions and invert_image
+# TODO: update the bio zith current bot status
 
 
 logging.basicConfig(
