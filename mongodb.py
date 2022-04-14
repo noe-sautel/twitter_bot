@@ -2,14 +2,17 @@ from pymongo import MongoClient
 from pprint import pprint
 
 # db=client.admin
-logins = ['noestl', 'agora']
-client = MongoClient("mongodb+srv://{}:{}@cluster0.lachp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority".format(*logins))
+logins = ["noestl", "agora"]
+client = MongoClient(
+    "mongodb+srv://{}:{}@cluster0.lachp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority".format(
+        *logins
+    )
+)
 
 db = client.test
 # Issue the serverStatus command and print the results
-serverStatusResult=db.command("serverStatus")
+serverStatusResult = db.command("serverStatus")
 pprint(serverStatusResult)
-
 
 
 # db = client.twitter_bot

@@ -183,3 +183,323 @@ Du coup on écrit “a même pas osé” oser étant ici un participe-passé cam
 2022-01-02 23:22:33,566 [INFO] CURSOR : [text]:@ohmyxan_nemesis @ohmyxan test, [user.name]:Noé,                 [id]:1477857577065144324,                     [in_reply_to_status_id]:1477856791967019008
 2022-01-02 23:22:35,241 [INFO] Profile picture identical ; no update.
 2022-01-02 23:22:35,242 [INFO] Waiting...
+2022-04-09 20:16:53,095 [INFO] Tweeter API created
+2022-04-09 20:18:13,167 [INFO] Retrieving mentions with since id: 1477857608606400512
+2022-04-09 20:19:34,579 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 20:49:54,634 [INFO] Tweeter API created
+2022-04-09 20:49:54,635 [INFO] Retrieving mentions with since id: 1477857608606400512
+2022-04-09 20:49:54,865 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 20:49:55,702 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-09 20:49:56,678 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-09 21:05:25,420 [INFO] Tweeter API created
+2022-04-09 21:05:25,423 [INFO] Retrieving mentions with since id: 1477857608606400512
+2022-04-09 21:05:25,668 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557
+2022-04-09 21:05:25,668 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 21:05:26,554 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153
+2022-04-09 21:05:26,554 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-09 21:05:27,437 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573
+2022-04-09 21:05:27,437 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-09 21:05:29,342 [INFO] Email error sent
+2022-04-09 21:05:29,344 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-09 21:52:11,068 [INFO] Tweeter API created
+2022-04-09 21:52:11,070 [INFO] Retrieving mentions with since id: 1477992035672113153
+2022-04-09 21:52:11,343 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557
+2022-04-09 21:52:11,343 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 21:52:12,453 [INFO] Waiting...
+2022-04-09 22:10:26,248 [INFO] Tweeter API created
+2022-04-09 22:10:26,249 [INFO] Retrieving mentions with since id: 1477857608606400512
+2022-04-09 22:10:26,474 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557
+2022-04-09 22:10:26,474 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 22:10:27,312 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153
+2022-04-09 22:10:27,312 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-09 22:10:28,126 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573
+2022-04-09 22:10:28,126 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-09 22:10:31,192 [INFO] Tweeter API created
+2022-04-09 22:10:31,192 [INFO] Retrieving mentions with since id: 1477857608606400512
+2022-04-09 22:10:31,429 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557
+2022-04-09 22:10:31,429 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 22:10:32,309 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153
+2022-04-09 22:10:32,309 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-09 22:10:33,376 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573
+2022-04-09 22:10:33,376 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-09 22:10:35,533 [INFO] Email error sent
+2022-04-09 22:10:35,535 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-09 22:25:24,572 [INFO] Tweeter API created
+2022-04-09 22:25:24,573 [INFO] Retrieving mentions with since id: 1477857608606400512
+2022-04-09 22:25:24,813 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-09 22:25:24,814 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-09 22:25:25,690 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-09 22:25:25,690 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-09 22:25:26,560 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-09 22:25:26,560 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-09 22:25:28,537 [INFO] Email error sent
+2022-04-09 22:25:28,538 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-10 08:48:53,459 [INFO] Tweeter API created
+2022-04-10 08:48:53,702 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:48:53,703 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 08:48:54,565 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:48:54,565 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 08:48:55,522 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:48:55,522 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 08:48:58,078 [INFO] Email error sent
+2022-04-10 08:48:58,080 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-10 08:49:05,602 [INFO] Tweeter API created
+2022-04-10 08:49:05,864 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:49:05,865 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 08:49:06,713 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:49:06,714 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 08:49:07,638 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:49:07,638 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 08:49:09,095 [INFO] Email error sent
+2022-04-10 08:49:09,097 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-10 08:49:24,412 [INFO] Tweeter API created
+2022-04-10 08:49:24,650 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:49:24,650 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 08:49:25,523 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:49:25,523 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 08:49:26,380 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:49:26,380 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 08:49:28,144 [INFO] Email error sent
+2022-04-10 08:49:28,145 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-10 08:50:05,157 [INFO] Tweeter API created
+2022-04-10 08:50:05,469 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:50:05,469 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 08:50:06,386 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:50:06,386 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 08:50:07,260 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:50:07,261 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 08:50:09,206 [INFO] Email error sent
+2022-04-10 08:50:09,207 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-10 08:55:17,657 [INFO] Tweeter API created
+2022-04-10 08:55:36,956 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:55:45,454 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 08:59:36,544 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:59:37,538 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 08:59:56,721 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 08:59:57,539 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 12:00:40,202 [INFO] Email error sent
+2022-04-10 12:00:40,206 [ERROR] 404 Not Found
+144 - No status found with that ID.
+2022-04-10 12:11:47,852 [INFO] Tweeter API created
+2022-04-10 12:12:18,290 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 12:12:19,115 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 12:19:01,909 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 12:19:02,948 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 12:21:27,679 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 12:21:36,457 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 12:23:17,832 [INFO] Email error sent
+2022-04-10 19:49:58,820 [INFO] Tweeter API created
+2022-04-10 19:50:38,642 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 19:50:39,736 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 19:51:08,583 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 19:51:09,752 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 19:51:41,710 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 19:51:42,839 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 19:52:16,012 [INFO] Email error sent
+2022-04-10 19:52:16,015 [ERROR] catching classes that do not inherit from BaseException is not allowed
+2022-04-10 19:54:22,550 [INFO] Tweeter API created
+2022-04-10 19:54:22,795 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 19:54:22,795 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 19:54:23,815 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 19:54:23,815 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 19:54:24,858 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 19:54:24,858 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 19:54:26,393 [INFO] Email error sent
+2022-04-10 19:54:26,394 [ERROR] catching classes that do not inherit from BaseException is not allowed
+2022-04-10 20:11:16,541 [INFO] Tweeter API created
+2022-04-10 20:11:16,782 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:11:16,783 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:11:17,883 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:11:17,883 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:11:19,029 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:11:19,029 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:11:21,334 [INFO] Email error sent
+2022-04-10 20:11:21,336 [ERROR] 'NotFound' object has no attribute 'code'
+2022-04-10 20:12:25,916 [INFO] Tweeter API created
+2022-04-10 20:12:26,168 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:26,168 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:12:27,195 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:27,195 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:12:28,141 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:28,141 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:12:29,518 [INFO] Email error sent
+2022-04-10 20:12:29,519 [ERROR] name 'continueror' is not defined
+2022-04-10 20:12:50,157 [INFO] Tweeter API created
+2022-04-10 20:12:50,457 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:50,457 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:12:51,518 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:51,518 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:12:52,575 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:52,575 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:12:53,131 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:53,131 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:12:54,153 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:54,153 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:12:55,273 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:55,273 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:12:55,806 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:55,806 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:12:56,790 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:56,790 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:12:57,862 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:57,862 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:12:58,427 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:58,428 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:12:59,460 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:12:59,460 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:13:00,510 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:00,510 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:13:01,016 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:01,016 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:13:02,021 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:02,021 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:13:03,064 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:03,064 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:13:03,668 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:03,669 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:13:04,706 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:04,706 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:13:05,754 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:13:05,754 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:19:36,278 [INFO] Tweeter API created
+2022-04-10 20:19:36,501 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477992035672113153 -  [new_since_id]:1477994842387095557
+2022-04-10 20:19:36,501 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:19:37,891 [INFO] Waiting...
+2022-04-10 20:20:31,970 [INFO] Tweeter API created
+2022-04-10 20:20:32,213 [INFO] CURSOR : Cursor on [tweet.id]:1477994842387095557 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:20:32,214 [INFO] CURSOR : [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle, [user.name]:🌶Moustchatcheur affairiste🍋,                 [id]:1477994842387095557,                     [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:20:33,162 [INFO] CURSOR : Cursor on [tweet.id]:1477992035672113153 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:20:33,162 [INFO] CURSOR : [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot, [user.name]:Mimo,                 [id]:1477992035672113153,                     [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:20:34,208 [INFO] CURSOR : Cursor on [tweet.id]:1477982216051437573 - [since_id]:1477857608606400512 -  [new_since_id]:1477994842387095557
+2022-04-10 20:20:34,208 [INFO] CURSOR : [text]:@ohmyxan @ohmyxan_nemesis grammaire, [user.name]:Kaidom,                 [id]:1477982216051437573,                     [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:43:36,472 [INFO] Email error sent
+2022-04-10 20:43:36,473 [ERROR] name 'new_since_id' is not defined
+2022-04-10 20:59:00,712 [INFO] Tweeter API created
+2022-04-10 20:59:31,922 [INFO] CURSOR : [tweet.id]:1477994842387095557; [since_id]:1477857608606400512; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 20:59:34,857 [INFO] CURSOR : [tweet.id]:1477992035672113153; [since_id]:1477857608606400512; [text]:@KaiDrag @ohmyxan @ohmyxan_nemesis Ah mais même lui peut plus rien faire, c'est terminé pour le bot; [user.name]:Mimo; [in_reply_to_status_id]:1477982216051437573
+2022-04-10 20:59:36,753 [INFO] CURSOR : [tweet.id]:1477982216051437573; [since_id]:1477857608606400512; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Kaidom; [in_reply_to_status_id]:1477979189286473729
+2022-04-10 20:59:55,023 [INFO] Waiting...
+2022-04-10 21:04:41,581 [INFO] Tweeter API created
+2022-04-10 21:04:58,581 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:05:45,337 [INFO] Waiting...
+2022-04-10 21:06:49,430 [INFO] Tweeter API created
+2022-04-10 21:06:55,724 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:07:27,433 [INFO] Waiting...
+2022-04-10 21:08:00,533 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:08:50,981 [INFO] Waiting...
+2022-04-10 21:09:09,378 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:09:34,277 [INFO] Waiting...
+2022-04-10 21:09:45,974 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:10:17,955 [INFO] Waiting...
+2022-04-10 21:10:23,295 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:11:18,368 [INFO] Waiting...
+2022-04-10 21:11:24,593 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:11:40,045 [INFO] Waiting...
+2022-04-10 21:11:48,640 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:12:56,120 [INFO] Tweeter API created
+2022-04-10 21:12:56,390 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:12:57,041 [INFO] Waiting...
+2022-04-10 21:12:57,274 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:12:57,928 [INFO] Waiting...
+2022-04-10 21:12:58,155 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:12:59,168 [INFO] Waiting...
+2022-04-10 21:12:59,393 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:00,026 [INFO] Waiting...
+2022-04-10 21:13:00,256 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:00,918 [INFO] Waiting...
+2022-04-10 21:13:01,140 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:01,802 [INFO] Waiting...
+2022-04-10 21:13:02,021 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:02,730 [INFO] Waiting...
+2022-04-10 21:13:02,951 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:03,583 [INFO] Waiting...
+2022-04-10 21:13:03,807 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:04,467 [INFO] Waiting...
+2022-04-10 21:13:04,714 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:05,396 [INFO] Waiting...
+2022-04-10 21:13:05,626 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:06,289 [INFO] Waiting...
+2022-04-10 21:13:06,516 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-10 21:13:07,156 [INFO] Waiting...
+2022-04-10 21:13:07,389 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1477994842387095557; [text]:@ohmyxan_nemesis @KaiDrag Non c’était belle; [user.name]:🌶Moustchatcheur affairiste🍋; [in_reply_to_status_id]:1477994286314627077
+2022-04-13 18:43:34,467 [INFO] Tweeter API created
+2022-04-13 18:43:43,325 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:05:10,252 [INFO] Waiting...
+2022-04-13 19:05:22,121 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:05:32,408 [INFO] Waiting...
+2022-04-13 19:05:34,200 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:05:38,123 [INFO] Waiting...
+2022-04-13 19:05:39,008 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:05:45,196 [INFO] Waiting...
+2022-04-13 19:05:47,145 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:05:51,751 [INFO] Waiting...
+2022-04-13 19:06:39,572 [INFO] CURSOR: [since_id]:1477992035672113153; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:06:48,947 [INFO] Tweeter API created
+2022-04-13 19:06:51,068 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:06:51,697 [INFO] Waiting...
+2022-04-13 19:06:56,449 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:06:57,089 [INFO] Waiting...
+2022-04-13 19:06:58,321 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:06:58,981 [INFO] Waiting...
+2022-04-13 19:07:03,704 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:07:04,333 [INFO] Waiting...
+2022-04-13 19:07:31,694 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:07:32,326 [INFO] Waiting...
+2022-04-13 19:07:33,570 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:07:34,287 [INFO] Waiting...
+2022-04-13 19:07:48,057 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 19:07:48,715 [INFO] Waiting...
+2022-04-13 19:07:55,028 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 20:36:47,974 [INFO] Waiting...
+2022-04-13 20:37:01,266 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 20:38:02,743 [INFO] Tweeter API created
+2022-04-13 20:39:01,605 [INFO] CURSOR: [since_id]:1477857608606400512; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 20:40:16,290 [INFO] Waiting...
+2022-04-13 20:44:06,158 [INFO] Tweeter API created
+2022-04-13 20:44:20,162 [INFO] CURSOR: [since_id]:1477857608606400599; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 20:44:47,588 [INFO] Tweeter API created
+2022-04-13 20:45:33,235 [INFO] Tweeter API created
+2022-04-13 20:52:22,462 [INFO] Tweeter API created
+2022-04-13 20:52:27,714 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514205946528026628; [text]:@ohmyxan @AdrienPuyfages @ohmyxan_nemesis Oui, je suis en train de changer une partie essentielle du code et je vou… https://t.co/Oj2rwmT1Hx; [user.name]:Noé; [in_reply_to_status_id]:1514169036933844998
+2022-04-13 20:53:04,445 [INFO] Waiting...
+2022-04-13 20:54:24,895 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 20:54:49,056 [INFO] Textgears API created
+2022-04-13 20:55:53,997 [INFO] Tweeter API created
+2022-04-13 20:55:55,436 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 20:56:15,967 [INFO] Textgears API created
+2022-04-13 20:57:09,129 [INFO] Tweeter API created
+2022-04-13 20:57:10,791 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 20:57:15,055 [INFO] Textgears API created
+2022-04-13 21:00:53,863 [INFO] Tweeter API created
+2022-04-13 21:00:55,400 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 21:00:57,087 [INFO] Textgears API created
+2022-04-13 21:13:15,774 [INFO] Tweeter API created
+2022-04-13 21:13:19,151 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 21:13:22,235 [INFO] Textgears API created
+2022-04-13 21:13:38,014 [INFO] Answered to Noé on 1514406573304598531: Faute de frappe possible trouvée. "faculté" .
+2022-04-13 21:13:39,017 [INFO] Profile picture updated.
+2022-04-13 21:13:39,017 [INFO] Waiting...
+2022-04-13 21:13:40,619 [INFO] CURSOR: [since_id]:1463052117279711235; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 21:17:09,450 [INFO] Tweeter API created
+2022-04-13 21:17:13,806 [INFO] Profile picture identical ; no update.
+2022-04-13 21:17:13,807 [INFO] Waiting...
+2022-04-13 21:17:28,673 [INFO] Tweeter API created
+2022-04-13 21:17:32,731 [INFO] CURSOR: [since_id]:1514248890912059394; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 21:17:39,175 [INFO] Textgears API created
+2022-04-13 21:17:39,864 [INFO] Answered to Noé on 1514406573304598531: name 'rightarrow' is not defined.
+2022-04-13 21:17:40,378 [INFO] Profile picture identical ; no update.
+2022-04-13 21:17:40,379 [INFO] Waiting...
+2022-04-13 21:20:47,198 [INFO] Tweeter API created
+2022-04-13 21:20:58,781 [INFO] Tweeter API created
+2022-04-13 21:21:01,464 [INFO] CURSOR: [since_id]:1514248890912059394; [tweet.id]:1514406573304598531; [text]:@ohmyxan @ohmyxan_nemesis grammaire; [user.name]:Noé; [in_reply_to_status_id]:1514248890912059394
+2022-04-13 21:21:04,476 [INFO] Textgears API created
+2022-04-13 21:21:05,203 [INFO] Answered to Noé on 1514406573304598531: Faute de frappe possible trouvée. ➡️  "faculté".
+2022-04-13 21:21:05,662 [INFO] Profile picture identical ; no update.
+2022-04-13 21:21:05,662 [INFO] Waiting...
