@@ -9,6 +9,14 @@ logger = logging.getLogger()
 
 
 def send_mail_err(error_content):
+    """
+    Get the error of main() via email.
+    Args:
+        error_content: Exception of main as a string
+
+    Returns:
+
+    """
     # Create a secure SSL context
     context = ssl.create_default_context()
     port = 465
@@ -40,6 +48,17 @@ def send_mail_err(error_content):
 
 
 def create_api():
+    """
+
+    Args:
+        consumer_key: CONSUMER_KEY
+        consumer_secret: CONSUMER_SECRET
+        access_token:
+        access_token_secret:
+
+    Returns:
+
+    """
     consumer_key = environ.get("api_key")  # CONSUMER_KEY
     consumer_secret = environ.get("api_secret_key")  # CONSUMER_SECRET
     access_token = environ.get("acess_token")

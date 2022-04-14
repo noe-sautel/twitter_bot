@@ -151,12 +151,7 @@ def invert_image(api, user):
 
 def main():
     try:
-        api = config.create_api(
-            consumer_key=config.credentials["api_key"],
-            consumer_secret=config.credentials["api_secret_key"],
-            access_token=config.credentials["acess_token"],
-            access_token_secret=config.credentials["acess_token_secret"],
-        )
+        api = config.create_api()
         since_id = config.since_id_read()
         while True:
             # threading.Thread
