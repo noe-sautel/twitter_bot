@@ -503,3 +503,112 @@ Du coup on écrit “a même pas osé” oser étant ici un participe-passé cam
 2022-04-13 21:21:05,203 [INFO] Answered to Noé on 1514406573304598531: Faute de frappe possible trouvée. ➡️  "faculté".
 2022-04-13 21:21:05,662 [INFO] Profile picture identical ; no update.
 2022-04-13 21:21:05,662 [INFO] Waiting...
+2022-04-23 21:21:46,876 [INFO] Email error sent
+2022-04-23 21:21:46,879 [ERROR] create_api() got an unexpected keyword argument 'consumer_key'
+2022-04-23 21:34:36,703 [INFO] Tweeter API created
+2022-04-23 21:34:36,706 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:34:37,451 [INFO] Profile picture identical ; no update.
+2022-04-23 21:34:37,452 [INFO] Waiting...
+2022-04-23 21:35:35,203 [INFO] Tweeter API created
+2022-04-23 21:35:35,207 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:35:35,918 [INFO] Profile picture identical ; no update.
+2022-04-23 21:35:35,918 [INFO] Waiting...
+2022-04-23 21:35:35,919 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:35:36,836 [INFO] Profile picture identical ; no update.
+2022-04-23 21:35:36,837 [INFO] Waiting...
+2022-04-23 21:35:36,837 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:35:37,483 [INFO] Profile picture identical ; no update.
+2022-04-23 21:35:37,484 [INFO] Waiting...
+2022-04-23 21:35:37,484 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:35:38,105 [INFO] Profile picture identical ; no update.
+2022-04-23 21:35:38,106 [INFO] Waiting...
+2022-04-23 21:35:38,106 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:35:38,714 [INFO] Profile picture identical ; no update.
+2022-04-23 21:35:38,715 [INFO] Waiting...
+2022-04-23 21:35:38,715 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:36:19,169 [INFO] Tweeter API created
+2022-04-23 21:36:30,657 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:36:37,546 [INFO] Profile picture identical ; no update.
+2022-04-23 21:36:37,547 [INFO] Waiting...
+2022-04-23 21:36:47,306 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:40:13,569 [INFO] Profile picture identical ; no update.
+2022-04-23 21:40:13,569 [INFO] Waiting...
+2022-04-23 21:40:18,007 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:42:33,873 [INFO] Tweeter API created
+2022-04-23 21:42:37,552 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:42:50,612 [INFO] Waiting...
+2022-04-23 21:43:05,022 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:43:15,479 [INFO] Waiting...
+2022-04-23 21:43:44,477 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:43:50,122 [INFO] Waiting...
+2022-04-23 21:43:59,746 [INFO] Tweeter API created
+2022-04-23 21:44:05,139 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 21:45:14,370 [INFO] Tweeter API created
+2022-04-23 21:45:21,127 [INFO] Retrieving mentions with since id: 1516232946323177477
+2022-04-23 22:42:54,048 [INFO] Tweeter API created
+2022-04-23 22:43:00,198 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 22:43:37,674 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 22:44:57,196 [INFO] Textgears API created
+2022-04-23 23:17:37,231 [INFO] Tweeter API created
+2022-04-23 23:17:38,748 [INFO] Tweeter API created
+2022-04-23 23:17:38,749 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:17:38,981 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:17:40,063 [INFO] Textgears API created
+2022-04-23 23:17:40,612 [WARNING] textgears.correct_text error: 'response'
+2022-04-23 23:17:43,146 [INFO] Email error sent
+2022-04-23 23:17:43,148 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:17:43,397 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:17:44,497 [INFO] Textgears API created
+2022-04-23 23:17:45,028 [WARNING] textgears.correct_text error: 'response'
+2022-04-23 23:18:35,083 [INFO] Tweeter API created
+2022-04-23 23:18:37,800 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:18:38,657 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:18:40,658 [INFO] Textgears API created
+2022-04-23 23:35:38,029 [INFO] Tweeter API created
+2022-04-23 23:35:41,299 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:35:47,962 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:42:27,441 [INFO] Tweeter API created
+2022-04-23 23:42:27,442 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:42:27,664 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:42:28,733 [INFO] Textgears API created
+2022-04-23 23:42:29,261 [WARNING] textgears.correct_text error: 'response'
+2022-04-23 23:42:29,261 [INFO] Waiting...
+2022-04-23 23:42:29,262 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:42:29,480 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:42:30,566 [INFO] Textgears API created
+2022-04-23 23:42:31,122 [WARNING] textgears.correct_text error: 'response'
+2022-04-23 23:42:31,122 [INFO] Waiting...
+2022-04-23 23:42:31,123 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:42:31,379 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:42:32,514 [INFO] Textgears API created
+2022-04-23 23:44:02,913 [INFO] Tweeter API created
+2022-04-23 23:44:10,572 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:44:14,632 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:51:05,176 [INFO] Tweeter API created
+2022-04-23 23:51:05,689 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:51:07,085 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:51:09,736 [INFO] No new tweets to proceed because [tweet.id]1516232946323177477 == [new_since_id]1516232946323177477 
+2022-04-23 23:51:38,316 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1514419072217366538; [text]:@ohmyxan @ohmyxan_nemesis @ohmyxan_nemesis; [user.name]:Noé; [in_reply_to_status_id]:1514419036045647875
+2022-04-23 23:51:51,240 [INFO] Tweeter API created
+2022-04-23 23:51:53,092 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:51:57,063 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:52:02,254 [INFO] No new tweets to proceed because [tweet.id]1516232946323177477 == [new_since_id]1516232946323177477 
+2022-04-23 23:52:07,644 [INFO] Waiting...
+2022-04-23 23:52:17,173 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-23 23:52:20,789 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-23 23:52:24,054 [INFO] No new tweets to proceed because [tweet.id]1516232946323177477 == [new_since_id]1516232946323177477 
+2022-04-23 23:52:32,051 [INFO] Waiting...
+2022-04-24 00:08:31,799 [INFO] Tweeter API created
+2022-04-24 00:08:33,427 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-24 00:08:37,870 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-24 00:09:00,200 [INFO] Textgears API created
+2022-04-24 00:09:39,097 [INFO] Tweeter API created
+2022-04-24 00:09:39,099 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-24 00:09:39,319 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-24 00:09:56,607 [INFO] Textgears API created
+2022-04-24 00:11:56,093 [INFO] Tweeter API created
+2022-04-24 00:11:56,095 [INFO] Retrieving mentions with since id: 1514406573304598531
+2022-04-24 00:11:56,336 [INFO] CURSOR: [since_id]:1514406573304598531; [tweet.id]:1516232946323177477; [text]:@ohmyxan @ohmyxan_nemesis  grammaire; [user.name]:Noé; [in_reply_to_status_id]:1516108559024635910
+2022-04-24 00:11:58,766 [INFO] Textgears API created
+2022-04-24 00:12:19,126 [WARNING] textgears.correct_text error_code: 607 description: Request quota exceeded. Use promo code ALL30 for 30% discount!
+2022-04-24 00:12:31,648 [INFO] Answered to Noé on 1516232946323177477: Je ne peux plus accéder à mon dictionnaire car il me manque des crédits. Essaie une autre fois ou contacte @noesautel 🧑🏽‍💻.
