@@ -25,7 +25,6 @@ def correct_text(tweet_text, api_key):
     pretty_json = json.loads(r.text)
 
     try:
-        print(pretty_json)
         if pretty_json["error_code"] == 607:
             # Lack of credits
             logger.warning(
