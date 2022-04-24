@@ -1,39 +1,39 @@
-# Présentation et motivation
-Twitter bot est un projet réalisé entre novembre et décembre 2021 pour divertir, amuser et conseiller mon ami Zak. Plusieurs fois par jour, il a l'habitue de tweeter pour sa communauté mais fait quelques fautes d'orthographe et de grammaire, qui parfois, sont volontaires. L'utilisateur @ohmyxan_nemesis, lorsqu'il est tagué sur un tweet de @ohmyxan, collectera le texte de son tweet, le corrigera, puis lui enverra une réponse avec ou sans correction.
+# Introduction
+Twitter bot is a project started in November 2021 to entertain my best friend on the notorious social network Twitter. Several times a day, he used to tweet for his community but makes some spelling and grammar mistakes, which sometimes, are made with a purpose. When the user @ohmyxan_nemesis is mentionned in a tweet response of @ohmyxan, the bot will collect the text of his tweet, correct it, and then send him a reply with or without correction.
 
 # Description
-Ci-dessous la description de chaque fihciers de ce repositery. A noter que par "utilisateur spécifique", j'entends mon ami Zak, soit l'utilisateur pour lequel on souhaite corriger le text des tweets.
+Below is the description of each file in this repository. Note that by "specific user", I mean the user to correct the tweet for.
 
-.gitignore : Fichier git permettant de ne pas télécharger des fichiers privés sur ce repository
-config.py : Recence les fonctions pour envoyer un email en cas d'erreur, se connecter à l'API twitter avec Tweepy, se connecter à l'API textgears, de lecture et écriture du dernier id tweet utilisé
-licence.txt : Fichier de licence pour ce programme
-main.log : Fichier de log, utile pour suivre le processus ou détecter des erreurs
-main.py : Fichier permettant de lancer le programme pour corriger les tweets d'un utilisateur spécifique et inverser la couleur de l'image de profil du bot issue de l'utilisateur spécifique
-Procfile : Fichier de configuration pour heroku
-profile_picture.jpg : Photo de profil de l'utilisateur
-requirements.text : Fichier permettant d'installer les librairies requises au bon fonctionnement du programme
-since_id.text : Fichier qui garde en mémoire l'identifiant du dernier tweet lu permettant d'avoir une base de départ pour le programme
-textgears.py : Fonction pour se connecter à l'API de textgears et nettoyer le text des tweets et gérer les erreurs.
+.gitignore : Git file to avoid downloading a list of files.
+config.py : List the functions to send an email in case of error, to connect to the twitter API with Tweepy, to connect to the textgears API, to read and write the last used tweet id.
+licence.txt : Licence file for this program.
+main.log : Log file, useful to follow the process or detect errors.
+main.py : File allowing to launch the program to correct the tweets of a specific user and to invert the color of the bot's profile image from the specific user.
+Procfile : Configuration file for heroku.
+profile_picture.jpg : Profile picture of the user.
+requirements.text : File allowing to install the libraries required for the good functioning of the program.
+since_id.text : File that keeps in memory the identifier of the last tweet read to have a starting base for the program.
+textgears.py : Function to connect to the textgears API and clean the text of the tweets and manage the errors.
 
 
 # How use this project as your own
 ## Credentials
-Le programme a besoin des credentiales pour se connecter aux APIs ci-dessous. Pour Twitter, vous trouverez votre bonheur sur https://developer.twitter.com, pour textgear https://textgears.com/, smtplib correspond aux identifiants de votre serveur de messagerie.
+The program needs credentials to connect to the APIs below. For Twitter, you will find your happiness on https://developer.twitter.com, for textgear https://textgears.com/, smtplib corresponds to the credentials of your mail server.
 	Twitter : consumer_key, consumer_secret, access_token, access_token_secret
 	textgear : textgear_api
 	smtplib : login, password, sender_email, receiver_email
 ## Procfile
-Sur https://www.heroku.com/, vous pouvez héberger votre programme et le faire fonctionner. Pour cela, créer un compte puis depuis votre dashborad, vous aurez la possibilité de créer une pipeline puis une application. N'oubliez pas de configurer votre application afin que python soit le language utilisée par défaut.
+On https://www.heroku.com/, you can host your program and run it. Create an account and then from your dashboard, you will be able to create a pipeline and an application. Don't forget to configure your application so that python is the default language.
 ## main.py
-Le fichier main.py est le coeur du programme, vous pouvez changer les valeurs des listes "auth_user_list" et "not_follow_self" pour changer respectivement la valeur de l'utilisateur spécifique et les les valeurs des utilisateurs à ne pas follow : en l'occurence soit même lorsque souhaite corriger son propre tweet.
+The main.py file is the heart of the program, you can change the values of the lists "auth_user_list" and "not_follow_self" to change respectively the value of the specific user and the values of the users not to follow: in this case even when wants to correct his own tweet.
 
-Le programme fonctionne en multithreatdeading.
-Le premier permet d'aller récupérer les tweets dans lesquels le bot est mentionné, puis utilisera textgears.py pour nettoyer le texte du tweet. Il répondra ensuite à l'utilisateur qui l'a mentionné avec la correction appropriée. Lorsqu'un utilisateur utilise le bot pour corriger un tweet n'émanant pas de l'utilisateur spécifique, une réponse sous forme de tweet sera apporté indiquant qu'il n'est pas possible d'apporter une quelconque correction.
-Le second va récupérer l'image de l'utilisateur spécifique, puis vérifie si celle-ci diffère de celle précédement enregistrée. Si ce n'est pas le cas, alors rien ne se passe ; si elle est différente, la nouvelle image est enregistré, puis ses couleurs sont inversés pour créer un effet négatif froid avant d'être téléchargé en tant que photo de profil de l'utilisateur spécifique.
+There is two main functions for this program.
+The first one will retrieve the tweets in which the bot is mentioned, then use textgears.py to clean up the text of the tweet. It will then reply to the user who mentioned it with the appropriate correction. When a user uses the bot to correct a tweet that is not from the specific user, a response in the form of a tweet will be made indicating that it is not possible to make any correction.
+The second one will retrieve the image of the specific user, then check if it is different from the one previously saved. If not, then nothing happens; if it is different, the new image is saved, then its colors are reversed to create a cool negative effect before being uploaded as the specific user's profile picture.
 
-Lorsque qu'une étape est complété, celle-ci est automatiquement enregistré dans le fichier de logs "main.log".
+When a step is completed, it is automatically recorded in the log file "main.log".
 
 # Ce que je retiens de ce projet
-Ce projet m'a permis de réutiliser à nouveau les pouvoirs des APIs twitter et de mieux appréhender leurs fonctionnemnts. De plus, j'ai pu perfectionner mon niveau en python ainsi que reprendre des bases PEP8 et découvrir la puissance des linter. Visual Studio Code a été mon IDE pour ce projet et j'ai été très satisfait de découvrir les fonctionnalités de ce logiciel. Enfin, j'ai découvert Heroku en tant que BAAS (Back-end As A Service) pour héberger et faire fonctionner ce programme.
+This project allowed me to use again the powers of the Twitter APIs and to better understand their functioning. Moreover, I was able to improve my level in python as well as to take back PEP8 basics and discover the power of linter. Visual Studio Code, then PyCharm, were my IDE for this project, and it was pleasant to discover new features software. Finally, I discovered Heroku as a BAAS (Back-end As A Service) to host and run this program.
 
-Pour toutes suggestions vous pouvez me DM.
+For any suggestions, please DM me.
