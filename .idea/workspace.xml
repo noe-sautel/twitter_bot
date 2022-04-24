@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fdcede59-3e0a-4a12-b898-ef72fa37348a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/profile_picture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/since_id.text" beforeDir="false" afterPath="$PROJECT_DIR$/since_id.text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smtp_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/smtp_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/textgears.py" beforeDir="false" afterPath="$PROJECT_DIR$/textgears.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,18 +120,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="14" />
+          <line>50</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="17" />
+          <line>108</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="18" />
+          <line>44</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/textgears.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -145,6 +146,7 @@
         <watch expression="tweet.in_reply_to_status_id" language="Python" />
         <watch expression="tweet.text" language="Python" />
         <watch expression="tweepy.errors" language="Python" />
+        <watch expression="tweet" language="Python" />
       </configuration>
     </watches-manager>
   </component>

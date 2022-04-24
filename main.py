@@ -2,9 +2,9 @@ import tweepy
 import logging
 import emoji
 
-import config_creds as config
+# import config_creds as config
 
-# import config
+import config
 import time
 import textgears
 import re
@@ -49,6 +49,11 @@ def check_mentions(api, keywords, since_id):
         logging.info(
             f"""CURSOR: [since_id]:{since_id}; [tweet.id]:{tweet.id}; [text]:{tweet.text}; [user.name]:{tweet.user.name}; [in_reply_to_status_id]:{tweet.in_reply_to_status_id}"""
         )
+        if tweet.id == new_since_id:
+            logging.info(
+                f"""No new tweets to proceed because [tweet.id]{tweet.id} == [new_since_id]{new_since_id} """
+            )
+            break
 
         try:
             api.get_status(tweet.in_reply_to_status_id)
@@ -76,7 +81,7 @@ def check_mentions(api, keywords, since_id):
                     auto_populate_reply_metadata=True,
                 )
                 logger.info(
-                    f"Answered to {tweet.user.name} on {tweet.id} with @ohmyxan filter"
+                    f"Answered to {tweet.user.name} on {tweet.id} with ohmyxan filter"
                 )
             except tweepy.errors.HTTPException as error:
                 if error.api_codes != [187]:
@@ -102,6 +107,8 @@ def check_mentions(api, keywords, since_id):
                 tweet_text=tweet_typo, api_key=config.textgears_api()
             )
             try:
+                if tweet_corrected is None:
+                    return new_since_id
                 api.update_status(
                     status=tweet_corrected,
                     in_reply_to_status_id=tweet.id,
@@ -117,7 +124,6 @@ def check_mentions(api, keywords, since_id):
                 logger.warning(f"Duplicate tweet {tweet.id}")
                 continue
         else:
-            # continue
             return new_since_id
         if not tweet.user.following and tweet.user.screen_name not in not_follow_self:
             tweet.user.follow()
@@ -151,12 +157,7 @@ def invert_image(api, user):
 
 def main():
     try:
-        api = config.create_api(
-            consumer_key=config.credentials["api_key"],
-            consumer_secret=config.credentials["api_secret_key"],
-            access_token=config.credentials["acess_token"],
-            access_token_secret=config.credentials["acess_token_secret"],
-        )
+        api = config.create_api()
         since_id = config.since_id_read()
         while True:
             # threading.Thread

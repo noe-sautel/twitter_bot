@@ -3,6 +3,14 @@ import json
 import requests
 import urllib.parse
 import emoji
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.FileHandler("main.log"), logging.StreamHandler()],
+)
+logger = logging.getLogger()
 
 
 def correct_text(tweet_text, api_key):
@@ -15,11 +23,16 @@ def correct_text(tweet_text, api_key):
         + api_key
     )
     pretty_json = json.loads(r.text)
-    # data = json.dumps(pretty_json, indent=2)
-    # # print(data)
-    # pretty_json = demjson.decode(data)
 
     try:
+        print(pretty_json)
+        if pretty_json["error_code"] == 607:
+            # Lack of credits
+            logger.warning(
+                f"""textgears.correct_text error_code: {pretty_json["error_code"]} description: {pretty_json["description"]}"""
+            )
+            return f"Je n'ai plus de crédits pour accéder à mon dictionnaire. Essaie une autre fois ou contacte @noesautel {emoji.emojize(':technologist_medium_skin_tone:')}"
+            return None
         if not pretty_json["response"]["errors"]:
             return (
                 f"Aucune erreur trouvée. Si il y'en a une, vous pouvez"
@@ -31,4 +44,4 @@ def correct_text(tweet_text, api_key):
             better = pretty_json["response"]["errors"][0]["better"][0]
             return f"""{description} {emoji.emojize(':right_arrow:')} \"{better}\""""
     except Exception as e:
-        return str(e)
+        logger.warning(f"textgears.correct_text error: {e}")
