@@ -49,9 +49,9 @@ def check_mentions(api, keywords, since_id):
         logging.info(
             f"""CURSOR: [since_id]:{since_id}; [tweet.id]:{tweet.id}; [text]:{tweet.text}; [user.name]:{tweet.user.name}; [in_reply_to_status_id]:{tweet.in_reply_to_status_id}"""
         )
-        if tweet.id == new_since_id:
+        if tweet.id < new_since_id:
             logging.info(
-                f"""No new tweets to proceed because [tweet.id]{tweet.id} == [new_since_id]{new_since_id} """
+                f"""No new tweets to proceed because [tweet.id]{tweet.id} < [new_since_id]{new_since_id} """
             )
             break
 
